@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board {    
+    width: 35vw;
+    height: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: 20px;
+}
+
+.tile {
+    border-style: solid;
+    border-color: white;
+    background-color: gray;
+    opacity: 0.3;
+    width: 33.33%;
+    height: 33.33%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+p {
+    margin: 0;
+}
